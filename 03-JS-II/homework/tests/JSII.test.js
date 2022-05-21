@@ -15,7 +15,7 @@ const {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-} = require('../homework');
+} = require('../homework(mio)');
 
 
 describe('obtenerMayor(x, y)', function() {
@@ -53,7 +53,7 @@ describe('saludo(idioma)', function() {
   it('should return \'Guten Tag!\' for aleman', function() {
     expect(saludo('aleman')).toBe('Guten Tag!');
   });
-  it('should return \'Hello!\' for ingles', function() {
+  it('should return \'Hola!\' for ingles', function() {
     expect(saludo('ingles')).toBe('Hello!');
   });
   it('should return \'Ni Hao!\' for mandarin', function() {
